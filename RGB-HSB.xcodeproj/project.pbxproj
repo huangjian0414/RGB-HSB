@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E5D73102057A5FA0053FB5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D730F2057A5FA0053FB5B /* AppDelegate.m */; };
+		7E5D73132057A5FA0053FB5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D73122057A5FA0053FB5B /* ViewController.m */; };
+		7E5D73162057A5FA0053FB5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5D73142057A5FA0053FB5B /* Main.storyboard */; };
+		7E5D73182057A5FA0053FB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5D73172057A5FA0053FB5B /* Assets.xcassets */; };
+		7E5D731B2057A5FA0053FB5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5D73192057A5FA0053FB5B /* LaunchScreen.storyboard */; };
+		7E5D731E2057A5FA0053FB5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D731D2057A5FA0053FB5B /* main.m */; };
+		7E5D73282057A5FB0053FB5B /* RGB_HSBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D73272057A5FB0053FB5B /* RGB_HSBTests.m */; };
+		7E5D73332057A5FB0053FB5B /* RGB_HSBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D73322057A5FB0053FB5B /* RGB_HSBUITests.m */; };
+		7E5D73422057AB7C0053FB5B /* UIColor+HJColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D73412057AB7C0053FB5B /* UIColor+HJColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E5D73242057A5FB0053FB5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E5D73032057A5FA0053FB5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E5D730A2057A5FA0053FB5B;
+			remoteInfo = "RGB-HSB";
+		};
+		7E5D732F2057A5FB0053FB5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E5D73032057A5FA0053FB5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E5D730A2057A5FA0053FB5B;
+			remoteInfo = "RGB-HSB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E5D730B2057A5FA0053FB5B /* RGB-HSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RGB-HSB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5D730E2057A5FA0053FB5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E5D730F2057A5FA0053FB5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E5D73112057A5FA0053FB5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E5D73122057A5FA0053FB5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E5D73152057A5FA0053FB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E5D73172057A5FA0053FB5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E5D731A2057A5FA0053FB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E5D731C2057A5FA0053FB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5D731D2057A5FA0053FB5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E5D73232057A5FB0053FB5B /* RGB-HSBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RGB-HSBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5D73272057A5FB0053FB5B /* RGB_HSBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGB_HSBTests.m; sourceTree = "<group>"; };
+		7E5D73292057A5FB0053FB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5D732E2057A5FB0053FB5B /* RGB-HSBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RGB-HSBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5D73322057A5FB0053FB5B /* RGB_HSBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGB_HSBUITests.m; sourceTree = "<group>"; };
+		7E5D73342057A5FB0053FB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5D73402057AB7B0053FB5B /* UIColor+HJColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HJColor.h"; sourceTree = "<group>"; };
+		7E5D73412057AB7C0053FB5B /* UIColor+HJColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HJColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E5D73082057A5FA0053FB5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5D73202057A5FB0053FB5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5D732B2057A5FB0053FB5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E5D73022057A5FA0053FB5B = {
+			isa = PBXGroup;
+			children = (
+				7E5D730D2057A5FA0053FB5B /* RGB-HSB */,
+				7E5D73262057A5FB0053FB5B /* RGB-HSBTests */,
+				7E5D73312057A5FB0053FB5B /* RGB-HSBUITests */,
+				7E5D730C2057A5FA0053FB5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E5D730C2057A5FA0053FB5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E5D730B2057A5FA0053FB5B /* RGB-HSB.app */,
+				7E5D73232057A5FB0053FB5B /* RGB-HSBTests.xctest */,
+				7E5D732E2057A5FB0053FB5B /* RGB-HSBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E5D730D2057A5FA0053FB5B /* RGB-HSB */ = {
+			isa = PBXGroup;
+			children = (
+				7E5D73402057AB7B0053FB5B /* UIColor+HJColor.h */,
+				7E5D73412057AB7C0053FB5B /* UIColor+HJColor.m */,
+				7E5D730E2057A5FA0053FB5B /* AppDelegate.h */,
+				7E5D730F2057A5FA0053FB5B /* AppDelegate.m */,
+				7E5D73112057A5FA0053FB5B /* ViewController.h */,
+				7E5D73122057A5FA0053FB5B /* ViewController.m */,
+				7E5D73142057A5FA0053FB5B /* Main.storyboard */,
+				7E5D73172057A5FA0053FB5B /* Assets.xcassets */,
+				7E5D73192057A5FA0053FB5B /* LaunchScreen.storyboard */,
+				7E5D731C2057A5FA0053FB5B /* Info.plist */,
+				7E5D731D2057A5FA0053FB5B /* main.m */,
+			);
+			path = "RGB-HSB";
+			sourceTree = "<group>";
+		};
+		7E5D73262057A5FB0053FB5B /* RGB-HSBTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E5D73272057A5FB0053FB5B /* RGB_HSBTests.m */,
+				7E5D73292057A5FB0053FB5B /* Info.plist */,
+			);
+			path = "RGB-HSBTests";
+			sourceTree = "<group>";
+		};
+		7E5D73312057A5FB0053FB5B /* RGB-HSBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E5D73322057A5FB0053FB5B /* RGB_HSBUITests.m */,
+				7E5D73342057A5FB0053FB5B /* Info.plist */,
+			);
+			path = "RGB-HSBUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E5D730A2057A5FA0053FB5B /* RGB-HSB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5D73372057A5FB0053FB5B /* Build configuration list for PBXNativeTarget "RGB-HSB" */;
+			buildPhases = (
+				7E5D73072057A5FA0053FB5B /* Sources */,
+				7E5D73082057A5FA0053FB5B /* Frameworks */,
+				7E5D73092057A5FA0053FB5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RGB-HSB";
+			productName = "RGB-HSB";
+			productReference = 7E5D730B2057A5FA0053FB5B /* RGB-HSB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E5D73222057A5FB0053FB5B /* RGB-HSBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5D733A2057A5FB0053FB5B /* Build configuration list for PBXNativeTarget "RGB-HSBTests" */;
+			buildPhases = (
+				7E5D731F2057A5FB0053FB5B /* Sources */,
+				7E5D73202057A5FB0053FB5B /* Frameworks */,
+				7E5D73212057A5FB0053FB5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E5D73252057A5FB0053FB5B /* PBXTargetDependency */,
+			);
+			name = "RGB-HSBTests";
+			productName = "RGB-HSBTests";
+			productReference = 7E5D73232057A5FB0053FB5B /* RGB-HSBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E5D732D2057A5FB0053FB5B /* RGB-HSBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5D733D2057A5FB0053FB5B /* Build configuration list for PBXNativeTarget "RGB-HSBUITests" */;
+			buildPhases = (
+				7E5D732A2057A5FB0053FB5B /* Sources */,
+				7E5D732B2057A5FB0053FB5B /* Frameworks */,
+				7E5D732C2057A5FB0053FB5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E5D73302057A5FB0053FB5B /* PBXTargetDependency */,
+			);
+			name = "RGB-HSBUITests";
+			productName = "RGB-HSBUITests";
+			productReference = 7E5D732E2057A5FB0053FB5B /* RGB-HSBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E5D73032057A5FA0053FB5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "黄坚";
+				TargetAttributes = {
+					7E5D730A2057A5FA0053FB5B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7E5D73222057A5FB0053FB5B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E5D730A2057A5FA0053FB5B;
+					};
+					7E5D732D2057A5FB0053FB5B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E5D730A2057A5FA0053FB5B;
+					};
+				};
+			};
+			buildConfigurationList = 7E5D73062057A5FA0053FB5B /* Build configuration list for PBXProject "RGB-HSB" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E5D73022057A5FA0053FB5B;
+			productRefGroup = 7E5D730C2057A5FA0053FB5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E5D730A2057A5FA0053FB5B /* RGB-HSB */,
+				7E5D73222057A5FB0053FB5B /* RGB-HSBTests */,
+				7E5D732D2057A5FB0053FB5B /* RGB-HSBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E5D73092057A5FA0053FB5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5D731B2057A5FA0053FB5B /* LaunchScreen.storyboard in Resources */,
+				7E5D73182057A5FA0053FB5B /* Assets.xcassets in Resources */,
+				7E5D73162057A5FA0053FB5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5D73212057A5FB0053FB5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5D732C2057A5FB0053FB5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E5D73072057A5FA0053FB5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5D73132057A5FA0053FB5B /* ViewController.m in Sources */,
+				7E5D73422057AB7C0053FB5B /* UIColor+HJColor.m in Sources */,
+				7E5D731E2057A5FA0053FB5B /* main.m in Sources */,
+				7E5D73102057A5FA0053FB5B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5D731F2057A5FB0053FB5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5D73282057A5FB0053FB5B /* RGB_HSBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5D732A2057A5FB0053FB5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5D73332057A5FB0053FB5B /* RGB_HSBUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E5D73252057A5FB0053FB5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E5D730A2057A5FA0053FB5B /* RGB-HSB */;
+			targetProxy = 7E5D73242057A5FB0053FB5B /* PBXContainerItemProxy */;
+		};
+		7E5D73302057A5FB0053FB5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E5D730A2057A5FA0053FB5B /* RGB-HSB */;
+			targetProxy = 7E5D732F2057A5FB0053FB5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E5D73142057A5FA0053FB5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E5D73152057A5FA0053FB5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E5D73192057A5FA0053FB5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E5D731A2057A5FA0053FB5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E5D73352057A5FB0053FB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E5D73362057A5FB0053FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E5D73382057A5FB0053FB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F49XPGKUF7;
+				INFOPLIST_FILE = "RGB-HSB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mxchip.RGB-HSB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E5D73392057A5FB0053FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F49XPGKUF7;
+				INFOPLIST_FILE = "RGB-HSB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mxchip.RGB-HSB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E5D733B2057A5FB0053FB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RGB-HSBTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mxchip.RGB-HSBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGB-HSB.app/RGB-HSB";
+			};
+			name = Debug;
+		};
+		7E5D733C2057A5FB0053FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RGB-HSBTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mxchip.RGB-HSBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGB-HSB.app/RGB-HSB";
+			};
+			name = Release;
+		};
+		7E5D733E2057A5FB0053FB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RGB-HSBUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mxchip.RGB-HSBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RGB-HSB";
+			};
+			name = Debug;
+		};
+		7E5D733F2057A5FB0053FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RGB-HSBUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mxchip.RGB-HSBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RGB-HSB";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E5D73062057A5FA0053FB5B /* Build configuration list for PBXProject "RGB-HSB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5D73352057A5FB0053FB5B /* Debug */,
+				7E5D73362057A5FB0053FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5D73372057A5FB0053FB5B /* Build configuration list for PBXNativeTarget "RGB-HSB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5D73382057A5FB0053FB5B /* Debug */,
+				7E5D73392057A5FB0053FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5D733A2057A5FB0053FB5B /* Build configuration list for PBXNativeTarget "RGB-HSBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5D733B2057A5FB0053FB5B /* Debug */,
+				7E5D733C2057A5FB0053FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5D733D2057A5FB0053FB5B /* Build configuration list for PBXNativeTarget "RGB-HSBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5D733E2057A5FB0053FB5B /* Debug */,
+				7E5D733F2057A5FB0053FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E5D73032057A5FA0053FB5B /* Project object */;
+}
